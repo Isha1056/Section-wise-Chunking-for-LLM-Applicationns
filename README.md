@@ -24,17 +24,16 @@ Best automation, minimal manual effort.
 ```
 pip install python-docx
 pip install pywin32
-
 ```
 
 ## 2. 📝 HTML-Based Section-Wise Chunking
 - Converts PDF files to HTML using PyMuPDF (fitz) for precise layout extraction.
 - Uses BeautifulSoup to parse HTML and extract structured content.
 - Automatically removes footers and headers based on user configuration.
-- Detects headings based on <b> tags and associates them with their corresponding paragraph content.
+- Detects headings based on `<b>` tags and associates them with their corresponding paragraph content.
 - Outputs chunked content into a CSV file for further processing.
 - Supports flexible formats, including:
-- - With or without <div> tags.
+- - With or without `<div>` tags.
 - - Customizable heading/footer lines to skip.
 - - Clean UTF-8 ASCII-only output.
 
@@ -43,7 +42,6 @@ pip install pywin32
 For PDF to HTML Section-wise chunking:
 ```
 pip install pymupdf beautifulsoup4 html5lib
-
 ```
 
 ### PDF to HTML Section wise chunking:
