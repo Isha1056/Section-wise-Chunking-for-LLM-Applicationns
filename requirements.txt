@@ -1,0 +1,5 @@
+pywin32
+python-docx
+pymupdf
+beautifulsoup4
+html5lib
