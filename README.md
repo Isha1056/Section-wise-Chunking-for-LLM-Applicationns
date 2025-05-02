@@ -46,17 +46,17 @@ pip install pymupdf beautifulsoup4 html5lib
 ### PDF to HTML Section wise chunking:
 Following are the arguments used for the function CreateSectionWiseChunks(...)
 
-| Parameter       | Description                                                      |      |
-| --------------- | ---------------------------------------------------------------- | ---- |
-| `filename`      | Name of the file (used as prefix in chunks).                     |      |
-| `extractedText` | HTML content obtained from `ConvertPdfToHTML`.                   |      |
-| `divTag`        | Whether to chunk using `<div>` blocks per page.                  |      |
-| `headerTag`     | HTML tag used for heading detection (ignored if `divTag=True`).  |      |
-| `headcount`     | Number of lines to skip from the top of each page (headers).     |      |
-| `footercount`   | Number of lines to skip from the bottom of each page (footers).  |      |
-| `tagToRemove`   | Currently unused. Placeholder for future tag exclusions.         |      |
-| `total_pages`   | Total number of pages in the document.                           |      |
-| `separator`     | Separator to use between heading and content fields (default: \` | \`). |
+| Parameter       | Description                                                        |
+| --------------- | -------------------------------------------------------------------|
+| `filename`      | Name of the file (used as prefix in chunks).                       |
+| `extractedText` | HTML content obtained from `ConvertPdfToHTML`.                     |
+| `divTag`        | Whether to chunk using `<div>` blocks per page.                    |
+| `headerTag`     | HTML tag used for heading detection (ignored if `divTag=True`).    |
+| `headcount`     | Number of lines to skip from the top of each page (headers).       |
+| `footercount`   | Number of lines to skip from the bottom of each page (footers).    |
+| `tagToRemove`   | Currently unused. Placeholder for future tag exclusions.           |
+| `total_pages`   | Total number of pages in the document.                             |
+| `separator`     | Separator to use between heading and content fields (default: `\`) |
 
 
 ## Notes
