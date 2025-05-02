@@ -6,7 +6,6 @@ This repository is an automated Python-based utility to convert PDF documents in
 Section-wise chunking creates a single meaningful unit by combining each heading with its associated paragraph, preserving the document’s natural structure. This approach has shown to outperform methods like recursive or fixed-size chunking, which often break context. Automated heading-paragraph detection achieves around 80% retrieval accuracy, making it highly effective for LLM applications.
 ```
 filename|Heading1|Heading2|...|Paragraph
-
 ```
 
 ## 1. 📝 Word-Based Section-Wise Chunking (Preferred)
