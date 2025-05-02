@@ -66,3 +66,7 @@ Following are the arguments used for the function CreateSectionWiseChunks(...)
 - The heading is detected based on <b> tags. You may modify logic inside CreateSectionWiseChunks to support different heading formats.
 - Ensure your PDF documents are structured well (e.g., tagged PDFs) for the most accurate HTML conversion.
 - Modify headcount and footercount depending on the presence of repeated headers/footers in the PDF.
+
+## License:
+This code is made available for **research and non-commercial use only**. You are permitted to use, modify, and share it for academic projects, internal tools, or experiments, provided proper attribution is given.
+**Use in production environments, commercial applications, or redistribution as part of any paid or publicly hosted service requires prior written permission** from the author.
